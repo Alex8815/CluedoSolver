@@ -1,5 +1,5 @@
-using Logic.Implementation;
-using Logic.Interfaces;
+using CardLogic.Implementation;
+using CardLogic.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;

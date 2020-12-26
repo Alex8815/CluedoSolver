@@ -1,5 +1,5 @@
 ﻿using CluedoSolver.Models;
-using Logic.Interfaces;
+using CardLogic.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
