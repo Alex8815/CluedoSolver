@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\adavi\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\adavi\\.nuget\\packages"
-    ]
-  }
-}
