@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "CardLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CardLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CardLogic.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CardLogic/1.0.0": {
+      "type": "project",
+      "path": "../Logic/CardLogic.csproj",
+      "msbuildProject": "../Logic/CardLogic.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "CardLogic >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\adavi\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\adavi\\source\\repos\\CluedoSolver\\Logic\\CardLogic.csproj": {
+              "projectPath": "C:\\Users\\adavi\\source\\repos\\CluedoSolver\\Logic\\CardLogic.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

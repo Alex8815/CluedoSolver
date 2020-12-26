@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adavi\\source\\repos\\CluedoSolver\\Logic\\Logic.csproj",
-      "projectName": "Logic",
-      "projectPath": "C:\\Users\\adavi\\source\\repos\\CluedoSolver\\Logic\\Logic.csproj",
+      "projectUniqueName": "C:\\Users\\adavi\\source\\repos\\CluedoSolver\\Logic\\CardLogic.csproj",
+      "projectName": "CardLogic",
+      "projectPath": "C:\\Users\\adavi\\source\\repos\\CluedoSolver\\Logic\\CardLogic.csproj",
       "packagesPath": "C:\\Users\\adavi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\adavi\\source\\repos\\CluedoSolver\\Logic\\obj\\",
       "projectStyle": "PackageReference",

@@ -7,6 +7,9 @@ namespace Logic.Implementation
 {
     public class Calculator : ICalculator
     {
-
+        public string Test()
+        {
+            return "Calculator called -- Hello, World!";
+        }
     }
 }

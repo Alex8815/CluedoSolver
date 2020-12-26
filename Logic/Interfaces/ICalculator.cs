@@ -6,5 +6,6 @@ namespace Logic.Interfaces
 {
     public interface ICalculator
     {
+        string Test();
     }
 }

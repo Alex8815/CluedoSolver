@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CluedoSolver", "CluedoSolver\CluedoSolver.csproj", "{BB32C039-B888-4B83-A69F-C373A46B65B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{AF188064-1A85-4054-ABAC-A548E5224B5F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardLogic", "Logic\CardLogic.csproj", "{AF188064-1A85-4054-ABAC-A548E5224B5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

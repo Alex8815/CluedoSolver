@@ -1,4 +1,5 @@
 ﻿using CluedoSolver.Models;
+using Logic.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -11,15 +12,21 @@ namespace CluedoSolver.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        //dependencies
+        private ICalculator _calculator;
+
+        public HomeController(ICalculator calculator)
         {
-            _logger = logger;
+            _calculator = calculator;
         }
 
         public IActionResult Index()
         {
+            string str = _calculator.Test();
+
+            ViewBag.HelloWorld = str;
+
             return View();
         }
 
